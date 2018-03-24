@@ -50,7 +50,6 @@ static NSString *CONTENT_OFFSET = @"contentOffset";
 
 - (void)viewDidAppear {
     // no-op
-
 }
 
 @end
