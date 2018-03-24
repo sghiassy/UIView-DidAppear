@@ -1,0 +1,15 @@
+{
+  "name": "uiviewdidappear",
+  "version": "1.0.0",
+  "description": "[![CI Status](http://img.shields.io/travis/Shaheen Ghiassy/UIViewDidAppear.svg?style=flat)](https://travis-ci.org/Shaheen Ghiassy/UIViewDidAppear) [![Version](https://img.shields.io/cocoapods/v/UIViewDidAppear.svg?style=flat)](http://cocoapods.org/pods/UIViewDidAppear) [![License](https://img.shields.io/cocoapods/l/UIViewDidAppear.svg?style=flat)](http://cocoapods.org/pods/UIViewDidAppear) [![Platform](https://img.shields.io/cocoapods/p/UIViewDidAppear.svg?style=flat)](http://cocoapods.org/pods/UIViewDidAppear)",
+  "main": "index.js",
+  "scripts": {
+    "pod:install": "cd Example; pod cache clean --all; rm -rf Pods; pod install; cd -",
+    "pod:lint": "pod cache clean --all; pod lib lint --swift-version='4.0' --no-clean --verbose --sources='https://github.com/CocoaPods/Specs'; cd -",
+    "test": "fastlane test",
+    "x": "open Example/UIViewDidAppear.xcworkspace",
+    "xcode:info": "cd Example; xcrun simctl list; xcodebuild -workspace UIViewDidAppear.xcworkspace -list; cd -"
+  },
+  "author": "",
+  "license": "MIT"
+}

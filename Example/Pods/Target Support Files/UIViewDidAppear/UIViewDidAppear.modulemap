@@ -1,0 +1,6 @@
+framework module UIViewDidAppear {
+  umbrella header "UIViewDidAppear-umbrella.h"
+
+  export *
+  module * { export * }
+}
