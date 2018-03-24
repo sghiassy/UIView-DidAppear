@@ -1,4 +1,16 @@
+########
+##
+## Meta Info
+##
+################
+
+platform :ios, '9.0'
 use_frameworks!
+
+inhibit_all_warnings! # ignore all warnings from all pods
+
+source 'https://github.com/CocoaPods/Specs.git'
+
 
 target 'UIViewDidAppear_Example' do
   pod 'UIViewDidAppear', :path => '../'

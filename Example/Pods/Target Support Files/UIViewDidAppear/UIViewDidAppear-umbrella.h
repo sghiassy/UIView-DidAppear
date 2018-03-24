@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIView+Traversal.h"
+#import "UIView+viewDidAppear.h"
 
 FOUNDATION_EXPORT double UIViewDidAppearVersionNumber;
 FOUNDATION_EXPORT const unsigned char UIViewDidAppearVersionString[];
